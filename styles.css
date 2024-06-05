@@ -105,9 +105,11 @@ body {
     position: absolute;
     text-align: center;
     color: white;
+    background-color: black;
     font-size: 32px;
     font-weight: 400;
     word-wrap: break-word;
+
 }
 
 .nav-item.second {
