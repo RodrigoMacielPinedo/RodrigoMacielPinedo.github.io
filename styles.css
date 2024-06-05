@@ -3,7 +3,6 @@ body {
     padding: 0;
     font-family: Inter, sans-serif;
 }
-
 .container {
     width: 1440px;
     height: 3353px;
@@ -39,7 +38,7 @@ body {
 .circle-image {
     width: 400px;
     height: 400px;
-    left: 520px;
+    left: 510px;
     top: 411px;
     position: absolute;
     border-radius: 9999px;
@@ -147,7 +146,7 @@ body {
 .white-border-box {
     width: 745px;
     height: 172px;
-    left: 475px;
+    left: 580px;
     top: 1354px;
     position: absolute;
     background: white;
@@ -157,8 +156,8 @@ body {
 .text-box {
     width: 733px;
     height: 157px;
-    left: 487px;
-    top: 1366px;
+    left: 595px;
+    top: 1375px;
     position: absolute;
     color: black;
     font-size: 22px;
@@ -169,7 +168,7 @@ body {
 .large-text {
     width: 170px;
     height: 76px;
-    left: 475px;
+    left: 580px;
     top: 1653px;
     position: absolute;
     color: white;
@@ -198,15 +197,15 @@ body {
 
 .large-text.fifth {
     width: 326px;
-    left: 965px;
+    left: 1000px;
     top: 1653px;
 }
 
 .white-text-box {
     width: 320px;
     height: 324px;
-    left: 475px;
-    top: 1737px;
+    left: 535px;
+    top: 1720px;
     position: absolute;
     color: white;
     font-size: 22px;
@@ -216,13 +215,13 @@ body {
 
 .white-text-box.second {
     left: 80px;
-    top: 1840px;
+    top: 1820px;
 }
 
 .white-text-box.third {
     height: 189px;
-    left: 965px;
-    top: 1737px;
+    left: 1010px;
+    top: 1718px;
 }
 
 .bold-text {
@@ -238,27 +237,27 @@ body {
 }
 
 .bold-text.second {
-    top: 2964px;
+    top: 2945px;
 }
 
 .bold-text.third {
     left: 827px;
-    top: 2595px;
+    top: 2575px;
 }
 
 .bold-text.fourth {
     left: 830px;
-    top: 2964px;
+    top: 2945px;
 }
 
 .bold-text.fifth {
     left: 1179px;
-    top: 2595px;
+    top: 2575px;
 }
 
 .bold-text.sixth {
     left: 1182px;
-    top: 2964px;
+    top: 2945px;
 }
 
 .profile-image {
@@ -307,7 +306,7 @@ body {
     width: 1003px;
     height: 98px;
     left: 220px;
-    top: 898px;
+    top: 950px;
     position: absolute;
     text-align: center;
     color: black;
@@ -326,6 +325,7 @@ body {
 
 .project-image.second {
     top: 2701px;
+    left: 827px;
 }
 
 .project-image.third {
@@ -335,6 +335,7 @@ body {
 
 .project-image.fourth {
     top: 2703px;
+    left: 1180px;
 }
 
 .project-image.fifth {
