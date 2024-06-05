@@ -172,4 +172,176 @@ body {
     left: 475px;
     top: 1653px;
     position: absolute;
+    color: white;
+    font-size: 64px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.large-text.second {
+    width: 228px;
+    left: 113px;
+    top: 1737px;
+}
+
+.large-text.third {
+    width: 385px;
+    left: 35px;
+    top: 2470px;
+}
+
+.large-text.fourth {
+    width: 318px;
+    left: 789px;
+    top: 2191px;
+}
+
+.large-text.fifth {
+    width: 326px;
+    left: 965px;
+    top: 1653px;
+}
+
+.white-text-box {
+    width: 320px;
+    height: 324px;
+    left: 475px;
+    top: 1737px;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.white-text-box.second {
+    left: 80px;
+    top: 1840px;
+}
+
+.white-text-box.third {
+    height: 189px;
+    left: 965px;
+    top: 1737px;
+}
+
+.bold-text {
+    width: 235px;
+    height: 27px;
+    left: 475px;
+    top: 2595px;
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.bold-text.second {
+    top: 2964px;
+}
+
+.bold-text.third {
+    left: 827px;
+    top: 2595px;
+}
+
+.bold-text.fourth {
+    left: 830px;
+    top: 2964px;
+}
+
+.bold-text.fifth {
+    left: 1179px;
+    top: 2595px;
+}
+
+.bold-text.sixth {
+    left: 1182px;
+    top: 2964px;
+}
+
+.profile-image {
+    width: 75px;
+    height: 75px;
+    left: 12px;
+    top: 2587px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.profile-image.second {
+    width: 62px;
+    height: 61px;
+    left: 56px;
+    top: 2703px;
+}
+
+.contact-info {
+    width: 355px;
+    height: 29px;
+    left: 100px;
+    top: 2607px;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.contact-info.second {
+    width: 187px;
+    left: 193px;
+    top: 2719px;
+}
+
+.large-bottom-image {
+    width: 412px;
+    height: 243px;
+    left: 25px;
+    top: 2799px;
+    position: absolute;
+}
+
+.large-title {
+    width: 1003px;
+    height: 98px;
+    left: 220px;
+    top: 898px;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 96px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.project-image {
+    width: 235px;
+    height: 235px;
+    left: 475px;
+    top: 2334px;
+    position: absolute;
+}
+
+.project-image.second {
+    top: 2701px;
+}
+
+.project-image.third {
+    left: 827px;
+    top: 2336px;
+}
+
+.project-image.fourth {
+    top: 2703px;
+}
+
+.project-image.fifth {
+    left: 1180px;
+    top: 2336px;
+}
+
+.project-image.sixth {
+    top: 2703px;
 }
