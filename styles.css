@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 3353px;
+    position: relative;
+    background: white;
+}
+
+.red-background {
+    width: 1440px;
+    height: 2127px;
+    left: 0px;
+    top: 1222px;
+    position: absolute;
+    background: #C10000;
+}
+
+.images-container {
+    width: 1440px;
+    height: 811px;
+    left: 0px;
+    top: 101px;
+    position: absolute;
+}
+
+.large-image {
+    width: 1440px;
+    height: 654px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+
+.circle-image {
+    width: 400px;
+    height: 400px;
+    left: 520px;
+    top: 411px;
+    position: absolute;
+    border-radius: 9999px;
+    border: 12px black solid;
+}
+
+.footer-container {
+    width: 1440px;
+    height: 311px;
+    left: 0px;
+    top: 3042px;
+    position: absolute;
+}
+
+.black-background {
+    width: 1440px;
+    height: 311px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: black;
+}
+
+.small-circle-image {
+    width: 100px;
+    height: 100px;
+    left: 455px;
+    top: 75px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.small-circle-image.second {
+    left: 670px;
+}
+
+.small-circle-image.third {
+    left: 885px;
+}
+
+.top-black-background {
+    width: 1440px;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: black;
+}
+
+.top-circle-image {
+    width: 75px;
+    height: 75px;
+    left: 29px;
+    top: 14px;
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.nav-item {
+    width: 144px;
+    height: 50px;
+    left: 815px;
+    top: 27px;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.nav-item.second {
+    left: 998px;
+}
+
+.nav-item.third {
+    left: 1187px;
+}
+
+.top-small-image {
+    width: 35px;
+    height: 42.13px;
+    left: 1377px;
+    top: 26px;
+    position: absolute;
+}
+
+.left-black-background {
+    width: 455px;
+    height: 1820px;
+    left: 0px;
+    top: 1222px;
+    position: absolute;
+    background: black;
+}
+
+.left-image {
+    width: 364px;
+    height: 364px;
+    left: 45px;
+    top: 1289px;
+    position: absolute;
+}
+
+.white-border-box {
+    width: 745px;
+    height: 172px;
+    left: 475px;
+    top: 1354px;
+    position: absolute;
+    background: white;
+    border: 6px black solid;
+}
+
+.text-box {
+    width: 733px;
+    height: 157px;
+    left: 487px;
+    top: 1366px;
+    position: absolute;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.large-text {
+    width: 170px;
+    height: 76px;
+    left: 475px;
+    top: 1653px;
+    position: absolute;
+}
