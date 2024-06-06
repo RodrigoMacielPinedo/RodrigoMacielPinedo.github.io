@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
+.container {
+    width: 1440px;
+    height: 2878px;
+    position: relative;
+    background: white;
+}
+
+.header {
+    width: 1440px;
+    height: 101px;
+    position: absolute;
+    top: 0;
+    background: black;
+}
+
+.nav-item {
+    width: 144px;
+    height: 50px;
+    position: absolute;
+    top: 27px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.icon {
+    width: 35px;
+    height: 42.13px;
+    position: absolute;
+    left: 1377px;
+    top: 26px;
+}
+
+.red-section {
+    width: 1440px;
+    height: 2766px;
+    position: absolute;
+    top: 103px;
+    background: #C10000;
+}
+
+.grey-section {
+    width: 1440px;
+    height: 1989px;
+    position: absolute;
+    top: 887px;
+    background: #525252;
+    border: 8px black solid;
+}
+
+.main-image {
+    width: 1243px;
+    height: 680px;
+    position: absolute;
+    left: 106px;
+    top: 142px;
+}
+
+.title {
+    width: 768px;
+    height: 138px;
+    position: absolute;
+    left: 336px;
+    top: 371px;
+    text-align: center;
+    color: white;
+    font-size: 115px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.project-image {
+    width: 400px;
+    height: 281px;
+    position: absolute;
+    left: 106px;
+}
+
+.project-description {
+    width: 495px;
+    height: 81px;
+    position: absolute;
+    left: 521px;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.project-title {
+    width: 307px;
+    height: 63px;
+    position: absolute;
+    left: 521px;
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.more-info-button {
+    width: 185px;
+    height: 48px;
+    position: absolute;
+    left: 1116px;
+    background: #E30000;
+}
+
+.more-info-text {
+    width: 144px;
+    height: 29px;
+    position: absolute;
+    left: 1137px;
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.footer {
+    width: 1440px;
+    height: 228px;
+    position: absolute;
+    top: 2650px;
+}
+
+.footer-background {
+    width: 1440px;
+    height: 228px;
+    position: absolute;
+    background: black;
+}
+
+.footer-icon {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 54px;
+    border-radius: 9999px;
+}
