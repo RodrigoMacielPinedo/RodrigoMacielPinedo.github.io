@@ -1,181 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Inter, sans-serif;
+}
+
 .container {
     width: 1440px;
     height: 3100px;
     position: relative;
     background: white;
-  }
-  
-  .header {
+    margin: auto;
+}
+
+.header {
     width: 1440px;
     height: 101px;
-    left: 0px;
-    top: 0px;
     position: absolute;
+    top: 0;
     background: black;
-  }
-  
-  .nav {
-    position: absolute;
-    top: 27px;
-    left: 0px;
-  }
-  
-  .nav-item {
+}
+
+.nav-item {
     width: 144px;
     height: 50px;
+    position: absolute;
     text-align: center;
     color: white;
     font-size: 32px;
-    font-family: Inter;
     font-weight: 400;
     word-wrap: break-word;
-    position: absolute;
-  }
-  
-  .nav-item:nth-child(1) {
-    left: 815px;
-  }
-  
-  .nav-item:nth-child(2) {
-    left: 998px;
-  }
-  
-  .nav-item:nth-child(3) {
-    left: 1187px;
-  }
-  
-  .nav img {
+}
+
+.icon {
     width: 35px;
     height: 42.13px;
+    position: absolute;
     left: 1377px;
     top: 26px;
-    position: absolute;
-  }
-  
-  .main {
+}
+
+.red-section {
     width: 1440px;
     height: 2746px;
-    left: 0px;
-    top: 132px;
     position: absolute;
+    top: 132px;
     background: #C10000;
-  }
-  
-  .contact-header {
+}
+
+.grey-section {
+    width: 1440px;
+    height: 440px;
+    position: absolute;
+    top: 101px;
+    background: #525252;
+    border: 8px black solid;
+}
+
+.title {
     width: 768px;
     height: 138px;
+    position: absolute;
     left: 323px;
     top: 252px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 115px;
-    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
-  }
-  
-  .contact-section {
-    position: absolute;
-    top: 598px;
-    left: 115px;
-  }
-  
-  .contact-item {
-    width: 1210px;
-    height: 138px;
-    background: #525252;
-    border: 8px black solid;
-    position: absolute;
-  }
-  
-  .contact-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 9999px;
-    position: absolute;
-  }
-  
-  .contact-item.contact-info {
-    width: 414px;
-    height: 46px;
-    text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-    position: absolute;
-  }
-  
-  .message-section {
-    position: absolute;
-    top: 1752px;
-    left: 115px;
-  }
-  
-  .message-header {
-    width: 597px;
-    height: 76px;
-    text-align: center;
-    color: white;
-    font-size: 64px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-    position: absolute;
-  }
-  
-  .message-form {
-    position: absolute;
-    top: 2005px;
-    left: 154px;
-  }
-  
-  .form-item {
-    width: 1134px;
-    height: 103px;
-    background: white;
-    border-radius: 14px;
-    border: 1px black solid;
-    position: absolute;
-  }
-  
-  .form-item span {
-    color: white;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-    position: absolute;
-  }
-  
-  .footer {
+}
+
+.footer {
     width: 1440px;
     height: 228px;
-    left: 1px;
+    position: absolute;
     top: 2872px;
+}
+
+.footer-background {
+    width: 1440px;
+    height: 228px;
     position: absolute;
     background: black;
-  }
-  
-  .footer-item {
+}
+
+.footer-icon {
     width: 100px;
     height: 100px;
-    border-radius: 9999px;
     position: absolute;
-  }
-  
-  .send-button {
+    border-radius: 9999px;
+}
+
+.footer-icon:nth-child(1) {
+    left: 455px;
+}
+
+.footer-icon:nth-child(2) {
+    left: 670px;
+}
+
+.footer-icon:nth-child(3) {
+    left: 885px;
+}
+
+.submit-box {
+    width: 382px;
+    height: 97px;
+    position: absolute;
+    left: 528px;
+    top: 2755px;
+    background: white;
+    border-radius: 14px;
+}
+
+.submit-text {
     width: 189px;
     height: 56px;
+    position: absolute;
+    left: 626px;
+    top: 2767px;
     text-align: center;
     color: black;
     font-size: 56px;
     font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
-    position: absolute;
-    top: 2767px;
-    left: 626px;
-  }
+}
