@@ -14,7 +14,7 @@ body {
 
 .header {
     width: 1440px;
-    height: 101px;
+    height: 106px;
     position: absolute;
     top: 0;
     background: black;
@@ -33,10 +33,10 @@ body {
 }
 
 .icon {
-    width: 35px;
-    height: 42.13px;
+    width: 55px;
+    height: 40px;
     position: absolute;
-    left: 1377px;
+    left: 1365px;
     top: 26px;
 }
 
@@ -49,7 +49,7 @@ body {
 }
 
 .grey-section {
-    width: 1440px;
+    width: 1424px;
     height: 1989px;
     position: absolute;
     top: 887px;
@@ -130,7 +130,7 @@ body {
     width: 1440px;
     height: 228px;
     position: absolute;
-    top: 2650px;
+    top: 2660px;
 }
 
 .footer-background {
