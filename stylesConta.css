@@ -1,344 +1,371 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Inter', sans-serif;
-  }
-  
-  .container {
+    font-family: Inter, sans-serif;
+}
+
+.container {
     width: 1440px;
     height: 3100px;
     position: relative;
     background: white;
-  }
-  
-  .header {
+    margin: auto;
+}
+
+.header {
     width: 1440px;
     height: 101px;
     position: absolute;
+    top: 0;
     background: black;
-  }
-  
-  .nav {
-    width: 162px;
+}
+
+.nav-item {
+    width: 144px;
     height: 50px;
     position: absolute;
+    top: 27px;
     text-align: center;
     color: white;
     font-size: 32px;
     font-weight: 400;
     word-wrap: break-word;
-  }
-  
-  .sobre-mi {
+}
+
+.nav-item-1 {
     left: 815px;
-    top: 27px;
-  }
-  
-  .proyectos {
+}
+
+.nav-item-2 {
+    width: 162px;
     left: 998px;
-    top: 27px;
-  }
-  
-  .contacto {
+}
+
+.nav-item-3 {
+    width: 162px;
     left: 1187px;
-    top: 27px;
-  }
-  
-  .logo {
+}
+
+.icon {
     width: 35px;
     height: 42.13px;
+    position: absolute;
     left: 1377px;
     top: 26px;
-    position: absolute;
-  }
-  
-  .section {
+}
+
+.red-section {
     width: 1440px;
-    position: absolute;
-  }
-  
-  .red-background {
     height: 2746px;
+    position: absolute;
     top: 132px;
     background: #C10000;
-  }
-  
-  .grey-background {
+}
+
+.grey-section {
+    width: 1440px;
     height: 440px;
-    top: 101px;
+    position: absolute;
     background: #525252;
     border: 8px black solid;
-  }
-  
-  .contact-title {
+}
+
+.grey-section-1 {
+    top: 101px;
+}
+
+.title {
     width: 768px;
     height: 138px;
+    position: absolute;
     left: 323px;
     top: 252px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 115px;
     font-weight: 700;
     word-wrap: break-word;
-  }
-  
-  .grey-box {
+}
+
+.grey-section-2 {
     width: 1210px;
     height: 138px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-  }
-  
-  .grey-box:nth-child(1) {
+    left: 115px;
     top: 598px;
-  }
-  
-  .grey-box:nth-child(2) {
+}
+
+.grey-section-3 {
+    width: 1210px;
+    height: 138px;
+    left: 115px;
     top: 789px;
-  }
-  
-  .grey-box:nth-child(3) {
+}
+
+.grey-section-4 {
+    width: 1210px;
+    height: 138px;
+    left: 115px;
     top: 980px;
-  }
-  
-  .grey-box:nth-child(4) {
+}
+
+.grey-section-5 {
+    width: 1210px;
+    height: 138px;
+    left: 115px;
     top: 1171px;
-  }
-  
-  .grey-box:nth-child(5) {
+}
+
+.grey-section-6 {
+    width: 1210px;
+    height: 138px;
+    left: 115px;
     top: 1366px;
-  }
-  
-  .grey-box:nth-child(6) {
+}
+
+.grey-section-7 {
+    width: 1210px;
+    height: 138px;
+    left: 115px;
     top: 1561px;
-  }
-  
-  .profile-pic {
+}
+
+.profile-image {
+    position: absolute;
+    border-radius: 9999px;
+}
+
+.profile-image-1 {
     width: 100px;
     height: 100px;
-    position: absolute;
-    border-radius: 9999px;
-  }
-  
-  .profile-pic-large {
+    left: 365px;
+    top: 617px;
+}
+
+.profile-image-2 {
+    width: 100px;
+    height: 100px;
+    left: 365px;
+    top: 808px;
+}
+
+.profile-image-3 {
     width: 130px;
     height: 130px;
-    position: absolute;
-    border-radius: 9999px;
-  }
-  
-  .profile-pic:nth-child(1) {
-    top: 617px;
-    left: 365px;
-  }
-  
-  .profile-pic:nth-child(2) {
-    top: 808px;
-    left: 365px;
-  }
-  
-  .profile-pic-large:nth-child(3) {
+    left: 350px;
     top: 984px;
-    left: 350px;
-  }
-  
-  .profile-pic:nth-child(4) {
+}
+
+.profile-image-4 {
+    width: 100px;
+    height: 100px;
+    left: 365px;
     top: 1190px;
-    left: 365px;
-  }
-  
-  .profile-pic-large:nth-child(5) {
-    top: 1366px;
+}
+
+.profile-image-5 {
+    width: 130px;
+    height: 130px;
     left: 350px;
-  }
-  
-  .profile-pic:nth-child(6) {
-    top: 1580px;
+    top: 1366px;
+}
+
+.profile-image-6 {
+    width: 100px;
+    height: 100px;
     left: 365px;
-  }
-  
-  .contact-info {
-    width: 414px;
-    height: 46px;
+    top: 1580px;
+}
+
+.contact-text {
     position: absolute;
     text-align: center;
     color: white;
     font-size: 39px;
     font-weight: 600;
     word-wrap: break-word;
-  }
-  
-  .contact-info:nth-child(1) {
+}
+
+.contact-text-1 {
+    width: 414px;
+    height: 46px;
+    left: 556px;
     top: 644px;
+}
+
+.contact-text-2 {
+    width: 435px;
+    height: 46px;
     left: 556px;
-  }
-  
-  .contact-info:nth-child(2) {
     top: 835px;
+}
+
+.contact-text-3 {
+    width: 414px;
+    height: 46px;
     left: 556px;
-  }
-  
-  .contact-info:nth-child(3) {
     top: 1026px;
+}
+
+.contact-text-4 {
+    width: 414px;
+    height: 46px;
     left: 556px;
-  }
-  
-  .contact-info:nth-child(4) {
     top: 1217px;
-    left: 556px;
-  }
-  
-  .contact-info:nth-child(5) {
-    top: 1412px;
-    left: 545px;
+}
+
+.contact-text-5 {
     width: 581px;
-  }
-  
-  .contact-info:nth-child(6) {
-    top: 1607px;
-    left: 556px;
+    height: 46px;
+    left: 545px;
+    top: 1412px;
+}
+
+.contact-text-6 {
     width: 535px;
-  }
-  
-  .grey-box-large {
+    height: 46px;
+    left: 556px;
+    top: 1607px;
+}
+
+.large-grey-section {
     width: 1210px;
     height: 984px;
     position: absolute;
+    left: 115px;
+    top: 1752px;
     background: #525252;
     border: 8px black solid;
-    top: 1752px;
-  }
-  
-  .message-title {
+}
+
+.large-title {
     width: 597px;
     height: 76px;
+    position: absolute;
     left: 421px;
     top: 1783px;
-    position: absolute;
     text-align: center;
     color: white;
+   
     font-size: 64px;
     font-weight: 700;
     word-wrap: break-word;
-  }
-  
-  .input-box {
+}
+
+.input-box {
     width: 1134px;
     height: 103px;
     position: absolute;
     background: white;
     border-radius: 14px;
     border: 1px black solid;
-  }
-  
-  .input-box:nth-child(1) {
-    top: 2005px;
+}
+
+.input-box-1 {
     left: 154px;
-  }
-  
-  .input-box:nth-child(2) {
+    top: 2005px;
+}
+
+.input-box-2 {
+    left: 149px;
     top: 2189px;
+}
+
+.input-box-3 {
     left: 149px;
-  }
-  
-  .input-box-large {
-    width: 1139px;
-    height: 289px;
     top: 2385px;
-    left: 149px;
-    position: absolute;
-    background: white;
-    border-radius: 14px;
-    border: 1px black solid;
-  }
-  
-  .input-label {
-    width: 271px;
-    height: 58px;
+}
+
+.label {
     position: absolute;
     text-align: center;
+}
+
+.label span {
     font-size: 40px;
+    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
-  }
-  
-  .input-label:nth-child(1) {
-    top: 1947px;
-    left: 159px;
-  }
-  
-  .input-label:nth-child(2) {
-    top: 2131px;
-    left: 159px;
-  }
-  
-  .input-label:nth-child(3) {
-    top: 2327px;
-    left: 154px;
-  }
-  
-  .required {
+}
+
+.label .required {
     color: #FF0000;
-  }
-  
-  .footer {
+}
+
+.label-1 {
+    width: 249px;
+    height: 58px;
+    left: 159px;
+    top: 1947px;
+}
+
+.label-2 {
+    width: 206px;
+    height: 58px;
+    left: 159px;
+    top: 2131px;
+}
+
+.label-3 {
+    width: 271px;
+    height: 58px;
+    left: 154px;
+    top: 2327px;
+}
+
+.footer {
     width: 1440px;
     height: 228px;
     position: absolute;
     top: 2872px;
-  }
-  
-  .footer-bg {
+}
+
+.footer-background {
     width: 1440px;
     height: 228px;
     position: absolute;
     background: black;
-  }
-  
-  .footer-pic {
+}
+
+.footer-icon {
     width: 100px;
     height: 100px;
     position: absolute;
+    top: 54px;
     border-radius: 9999px;
-  }
-  
-  .footer-pic:nth-child(1) {
-    top: 54px;
+}
+
+.footer-icon-1 {
     left: 455px;
-  }
-  
-  .footer-pic:nth-child(2) {
-    top: 54px;
+}
+
+.footer-icon-2 {
     left: 670px;
-  }
-  
-  .footer-pic:nth-child(3) {
-    top: 54px;
+}
+
+.footer-icon-3 {
     left: 885px;
-  }
-  
-  .send-button {
+}
+
+.submit-box {
     width: 382px;
     height: 97px;
+    position: absolute;
     left: 528px;
     top: 2755px;
-    position: absolute;
     background: white;
     border-radius: 14px;
-  }
-  
-  .send-text {
+}
+
+.submit-text {
     width: 189px;
     height: 56px;
+    position: absolute;
     left: 626px;
     top: 2767px;
-    position: absolute;
     text-align: center;
     color: black;
     font-size: 56px;
+    font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
-  }
-  
+}
