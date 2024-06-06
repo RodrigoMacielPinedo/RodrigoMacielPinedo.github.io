@@ -274,9 +274,9 @@ body {
 }
 
 .profile-image.second {
-    width: 62px;
-    height: 61px;
-    left: 56px;
+    width: 100px;
+    height: 100px;
+    left: 0px;
     top: 2703px;
 }
 
@@ -293,9 +293,9 @@ body {
 }
 
 .contact-info.second {
-    width: 187px;
-    left: 193px;
-    top: 2719px;
+    width: 362px;
+    left: 105px;
+    top: 2730px;
 }
 
 .large-bottom-image {
