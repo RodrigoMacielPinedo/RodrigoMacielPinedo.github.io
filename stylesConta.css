@@ -20,7 +20,7 @@ body {
 }
 
 .sobre-mi, .proyectos, .contacto {
-    width: 144px;
+    width: 160px;
     height: 50px;
     position: absolute;
     top: 27px;
@@ -218,19 +218,9 @@ body {
 .footer-img.img2 { width: 100px; height: 100px; left: 670px; top: 54px; }
 .footer-img.img3 { width: 100px; height: 100px; left: 885px; top: 54px; }
 
-.send-button {
-    width: 382px;
-    height: 97px;
-    position: absolute;
-    left: 528px;
-    top: 2755px;
-    background: white;
-    border-radius: 14px;
-}
-
 .send-text {
     width: 189px;
-    height: 56px;
+    height: 75px;
     position: absolute;
     left: 626px;
     top: 2767px;
