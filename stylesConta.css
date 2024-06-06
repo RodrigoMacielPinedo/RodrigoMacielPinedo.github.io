@@ -12,7 +12,6 @@
     top: 0px;
     position: absolute;
     background: black;
-    margin: auto;
   }
   
   .nav {
@@ -80,81 +79,66 @@
     position: absolute;
     top: 598px;
     left: 115px;
-    display: flex;
-    justify-content: space-between;
   }
   
   .contact-item {
-    width: 121px;
+    width: 1210px;
     height: 138px;
     background: #525252;
     border: 8px black solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
   }
   
   .contact-item img {
     width: 100px;
     height: 100px;
     border-radius: 9999px;
+    position: absolute;
   }
   
-  .contact-info {
+  .contact-item.contact-info {
+    width: 414px;
+    height: 46px;
     text-align: center;
     color: white;
     font-size: 39px;
     font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
+    position: absolute;
   }
   
   .message-section {
     position: absolute;
-    top: 101px;
+    top: 1752px;
     left: 115px;
-    width: 1210px;
-    height: 984px;
-    background: #525252;
-    border: 8px black solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
   }
   
   .message-header {
     width: 597px;
     height: 76px;
-    left: 421px;
-    top: 1783px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 64px;
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
+    position: absolute;
   }
   
   .message-form {
-    width: 1134px;
-    height: 103px;
-    left: 154px;
-    top: 2005px;
     position: absolute;
-    background: white;
-    border-radius: 14px;
-    border: 1px black solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    top: 2005px;
+    left: 154px;
   }
   
   .form-item {
-    width: 249px;
-    height: 58px;
-    text-align: center;
+    width: 1134px;
+    height: 103px;
+    background: white;
+    border-radius: 14px;
+    border: 1px black solid;
+    position: absolute;
   }
   
   .form-item span {
@@ -163,18 +147,7 @@
     font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
-  }
-  
-  .form-item:nth-child(1) {
-    width: 249px;
-  }
-  
-  .form-item:nth-child(2) {
-    width: 206px;
-  }
-  
-  .form-item:nth-child(3) {
-    width: 271px;
+    position: absolute;
   }
   
   .footer {
@@ -184,23 +157,13 @@
     top: 2872px;
     position: absolute;
     background: black;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
   
   .footer-item {
     width: 100px;
     height: 100px;
     border-radius: 9999px;
-    background: white;
     position: absolute;
-  }
-  
-  .footer-item img {
-    width: 100px;
-    height: 100px;
-    border-radius: 9999px;
   }
   
   .send-button {
@@ -213,6 +176,6 @@
     font-weight: 600;
     word-wrap: break-word;
     position: absolute;
-    left: 626px;
     top: 2767px;
+    left: 626px;
   }
