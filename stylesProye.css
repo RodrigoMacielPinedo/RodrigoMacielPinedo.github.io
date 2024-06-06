@@ -185,8 +185,20 @@ body {
     font-size: 24px;
     font-weight: 400;
     word-wrap: break-word;
+    top: 1132px;
 }
 
+.more-info-text.second{
+    top: 1549px;
+}
+
+.more-info-text.third{
+    top: 1976px;
+}
+
+.more-info-text.fourth{
+    top: 2403px;
+}
 .footer {
     width: 1440px;
     height: 228px;
@@ -207,4 +219,13 @@ body {
     position: absolute;
     top: 54px;
     border-radius: 9999px;
+    left: 455px;
+}
+
+.footer-icon.second{
+    left: 670px;
+}
+
+.footer-icon.third{
+    left: 885px;
 }
