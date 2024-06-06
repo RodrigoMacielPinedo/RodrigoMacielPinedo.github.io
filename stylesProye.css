@@ -21,7 +21,7 @@ body {
 }
 
 .nav-item {
-    width: 144px;
+    width: 160px;
     height: 50px;
     position: absolute;
     top: 27px;
@@ -46,7 +46,7 @@ body {
     height: 35px;
     position: absolute;
     left: 1355px;
-    top: 26px;
+    top: 33px;
 }
 
 .red-section {
