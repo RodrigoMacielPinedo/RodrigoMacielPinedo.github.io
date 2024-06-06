@@ -44,11 +44,11 @@ body {
 }
 
 .logo {
-    width: 35px;
-    height: 42.13px;
+    width: 55px;
+    height: 40px;
     position: absolute;
-    left: 1377px;
-    top: 26px;
+    left: 1365px;
+    top: 30px;
 }
 
 .red-section {
@@ -122,7 +122,7 @@ body {
 .text2 { width: 435px; height: 46px; left: 556px; top: 835px; }
 .text3 { width: 414px; height: 46px; left: 556px; top: 1026px; }
 .text4 { width: 414px; height: 46px; left: 556px; top: 1217px; }
-.text5 { width: 581px; height: 46px; left: 545px; top: 1412px; }
+.text5 { width: 581px; height: 46px; left: 530px; top: 1412px; }
 .text6 { width: 535px; height: 46px; left: 556px; top: 1607px; }
 
 .message-section {
