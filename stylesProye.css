@@ -14,7 +14,7 @@ body {
 
 .header {
     width: 1440px;
-    height: 106px;
+    height: 101px;
     position: absolute;
     top: 0;
     background: black;
@@ -32,25 +32,11 @@ body {
     word-wrap: break-word;
 }
 
-.nav-item-1 {
-    left: 815px;
-}
-
-.nav-item-2 {
-    left: 998px;
-    width: 162px;
-}
-
-.nav-item-3 {
-    left: 1187px;
-    width: 162px;
-}
-
 .icon {
-    width: 55px;
-    height: 40px;
+    width: 35px;
+    height: 42.13px;
     position: absolute;
-    left: 1365px;
+    left: 1377px;
     top: 26px;
 }
 
@@ -63,13 +49,12 @@ body {
 }
 
 .grey-section {
-    width: 1424px;
+    width: 1440px;
     height: 1989px;
     position: absolute;
     top: 887px;
     background: #525252;
     border: 8px black solid;
-    left: 8px;
 }
 
 .main-image {
@@ -100,22 +85,6 @@ body {
     left: 106px;
 }
 
-.project-image-1 {
-    top: 1030px;
-}
-
-.project-image-2 {
-    top: 1447px;
-}
-
-.project-image-3 {
-    top: 1874px;
-}
-
-.project-image-4 {
-    top: 2301px;
-}
-
 .project-description {
     width: 495px;
     height: 81px;
@@ -125,22 +94,6 @@ body {
     font-size: 20px;
     font-weight: 400;
     word-wrap: break-word;
-}
-
-.project-description-1 {
-    top: 1128px;
-}
-
-.project-description-2 {
-    top: 1559px;
-}
-
-.project-description-3 {
-    top: 1999px;
-}
-
-.project-description-4 {
-    top: 2418px;
 }
 
 .project-title {
@@ -154,46 +107,12 @@ body {
     word-wrap: break-word;
 }
 
-.project-title-1 {
-    top: 1042px;
-}
-
-.project-title-2 {
-    top: 1451px;
-}
-
-.project-title-3 {
-    top: 1886px;
-    height: 86px;
-}
-
-.project-title-4 {
-    top: 2313px;
-    height: 86px;
-}
-
 .more-info-button {
     width: 185px;
     height: 48px;
     position: absolute;
     left: 1116px;
     background: #E30000;
-}
-
-.more-info-button-1 {
-    top: 1123px;
-}
-
-.more-info-button-2 {
-    top: 1540px;
-}
-
-.more-info-button-3 {
-    top: 1967px;
-}
-
-.more-info-button-4 {
-    top: 2394px;
 }
 
 .more-info-text {
@@ -207,27 +126,11 @@ body {
     word-wrap: break-word;
 }
 
-.more-info-text-1 {
-    top: 1132px;
-}
-
-.more-info-text-2 {
-    top: 1549px;
-}
-
-.more-info-text-3 {
-    top: 1976px;
-}
-
-.more-info-text-4 {
-    top: 2403px;
-}
-
 .footer {
     width: 1440px;
     height: 228px;
     position: absolute;
-    top: 2660px;
+    top: 2650px;
 }
 
 .footer-background {
@@ -243,16 +146,4 @@ body {
     position: absolute;
     top: 54px;
     border-radius: 9999px;
-}
-
-.footer-icon-1 {
-    left: 455px;
-}
-
-.footer-icon-2 {
-    left: 670px;
-}
-
-.footer-icon-3 {
-    left: 885px;
 }
