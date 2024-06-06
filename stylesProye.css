@@ -42,10 +42,10 @@ body {
 }
 
 .icon {
-    width: 35px;
-    height: 42.13px;
+    width: 65px;
+    height: 35px;
     position: absolute;
-    left: 1377px;
+    left: 1355px;
     top: 26px;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 .grey-section {
-    width: 1440px;
+    width: 1424px;
     height: 1989px;
     position: absolute;
     top: 887px;
@@ -208,7 +208,7 @@ body {
 
 .footer-background {
     width: 1440px;
-    height: 228px;
+    height: 235px;
     position: absolute;
     background: black;
 }
