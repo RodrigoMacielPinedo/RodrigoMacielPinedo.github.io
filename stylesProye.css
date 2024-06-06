@@ -116,6 +116,19 @@ body {
     font-size: 20px;
     font-weight: 400;
     word-wrap: break-word;
+    top: 1128px;
+}
+
+.project-description.second{
+    top: 1559px;
+}
+
+.project-description.third{
+    top: 1999px;
+}
+
+.project-description.fourth{
+    top: 2418px;
 }
 
 .project-title {
@@ -127,6 +140,19 @@ body {
     font-size: 36px;
     font-weight: 700;
     word-wrap: break-word;
+    top: 1042px;
+}
+
+.project-title.second{
+    top: 1451px;
+}
+
+.project-title.third{
+    top: 1886px;
+}
+
+.project-title.fourth{
+    top: 2313px;
 }
 
 .more-info-button {
@@ -135,6 +161,19 @@ body {
     position: absolute;
     left: 1116px;
     background: #E30000;
+    top: 1123px;
+}
+
+.more-info-button.second{
+    top: 1540px;
+}
+
+.more-info-button.third{
+    top: 1967px;
+}
+
+.more-info-button.fourth{
+    top: 2394px;
 }
 
 .more-info-text {
