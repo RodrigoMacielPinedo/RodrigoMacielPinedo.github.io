@@ -8,6 +8,7 @@ body {
     height: 3100px;
     position: relative;
     background: white;
+    margin: auto;
 }
 
 .header {
@@ -59,7 +60,7 @@ body {
 }
 
 .grey-section {
-    width: 1440px;
+    width: 1424px;
     height: 440px;
     position: absolute;
     top: 101px;
