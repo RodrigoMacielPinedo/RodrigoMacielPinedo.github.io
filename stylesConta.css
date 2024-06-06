@@ -1,496 +1,241 @@
-body > div {
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.main-container {
     width: 1440px;
     height: 3100px;
     position: relative;
     background: white;
 }
 
-body > div > div:nth-child(1) {
+.header {
     width: 1440px;
     height: 101px;
-    left: 0px;
-    top: 0px;
     position: absolute;
+    top: 0;
     background: black;
 }
 
-body > div > div:nth-child(2) {
+.sobre-mi, .proyectos, .contacto {
     width: 144px;
     height: 50px;
+    position: absolute;
+    top: 27px;
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.sobre-mi {
     left: 815px;
-    top: 27px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 400;
-    word-wrap: break-word;
 }
 
-body > div > div:nth-child(3) {
-    width: 162px;
-    height: 50px;
+.proyectos {
     left: 998px;
-    top: 27px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 400;
-    word-wrap: break-word;
 }
 
-body > div > div:nth-child(4) {
-    width: 162px;
-    height: 50px;
+.contacto {
     left: 1187px;
-    top: 27px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 400;
-    word-wrap: break-word;
 }
 
-body > div > img:nth-child(5) {
+.logo {
     width: 35px;
     height: 42.13px;
+    position: absolute;
     left: 1377px;
     top: 26px;
-    position: absolute;
 }
 
-body > div > div:nth-child(6) {
+.red-section {
     width: 1440px;
     height: 2746px;
-    left: 0px;
-    top: 132px;
     position: absolute;
+    top: 132px;
     background: #C10000;
 }
 
-body > div > div:nth-child(7) {
+.grey-section {
     width: 1440px;
     height: 440px;
-    left: 0px;
-    top: 101px;
     position: absolute;
+    top: 101px;
     background: #525252;
-    border: 8px black solid;
+    border: 8px solid black;
 }
 
-body > div > div:nth-child(8) {
+.contacto-title {
     width: 768px;
     height: 138px;
+    position: absolute;
     left: 323px;
     top: 252px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 115px;
-    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
 }
 
-body > div > div:nth-child(9) {
+.contact-block {
     width: 1210px;
     height: 138px;
-    left: 115px;
-    top: 598px;
     position: absolute;
+    left: 115px;
     background: #525252;
-    border: 8px black solid;
+    border: 8px solid black;
 }
 
-body > div > div:nth-child(10) {
-    width: 1210px;
-    height: 138px;
-    left: 115px;
-    top: 789px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-}
+.block1 { top: 598px; }
+.block2 { top: 789px; }
+.block3 { top: 980px; }
+.block4 { top: 1171px; }
+.block5 { top: 1366px; }
+.block6 { top: 1561px; }
 
-body > div > div:nth-child(11) {
-    width: 1210px;
-    height: 138px;
-    left: 115px;
-    top: 980px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-}
-
-body > div > div:nth-child(12) {
-    width: 1210px;
-    height: 138px;
-    left: 115px;
-    top: 1171px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-}
-
-body > div > div:nth-child(13) {
-    width: 1210px;
-    height: 138px;
-    left: 115px;
-    top: 1366px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-}
-
-body > div > div:nth-child(14) {
-    width: 1210px;
-    height: 138px;
-    left: 115px;
-    top: 1561px;
-    position: absolute;
-    background: #525252;
-    border: 8px black solid;
-}
-
-body > div > img:nth-child(15) {
-    width: 100px;
-    height: 100px;
-    left: 365px;
-    top: 617px;
+.contact-img {
     position: absolute;
     border-radius: 9999px;
 }
 
-body > div > img:nth-child(16) {
-    width: 100px;
-    height: 100px;
-    left: 365px;
-    top: 808px;
-    position: absolute;
-    border-radius: 9999px;
-}
+.img1 { width: 100px; height: 100px; left: 365px; top: 617px; }
+.img2 { width: 100px; height: 100px; left: 365px; top: 808px; }
+.img3 { width: 130px; height: 130px; left: 350px; top: 984px; }
+.img4 { width: 100px; height: 100px; left: 365px; top: 1190px; }
+.img5 { width: 130px; height: 130px; left: 350px; top: 1366px; }
+.img6 { width: 100px; height: 100px; left: 365px; top: 1580px; }
 
-body > div > img:nth-child(17) {
-    width: 130px;
-    height: 130px;
-    left: 350px;
-    top: 984px;
-    position: absolute;
-    border-radius: 9999px;
-}
-
-body > div > img:nth-child(18) {
-    width: 100px;
-    height: 100px;
-    left: 365px;
-    top: 1190px;
-    position: absolute;
-    border-radius: 9999px;
-}
-
-body > div > img:nth-child(19) {
-    width: 130px;
-    height: 130px;
-    left: 350px;
-    top: 1366px;
-    position: absolute;
-    border-radius: 9999px;
-}
-
-body > div > img:nth-child(20) {
-    width: 100px;
-    height: 100px;
-    left: 365px;
-    top: 1580px;
-    position: absolute;
-    border-radius: 9999px;
-}
-
-body > div > div:nth-child(21) {
-    width: 414px;
-    height: 46px;
-    left: 556px;
-    top: 644px;
+.contact-text {
     position: absolute;
     text-align: center;
     color: white;
     font-size: 39px;
-    font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
 }
 
-body > div > div:nth-child(22) {
-    width: 435px;
-    height: 46px;
-    left: 556px;
-    top: 835px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-}
+.text1 { width: 414px; height: 46px; left: 556px; top: 644px; }
+.text2 { width: 435px; height: 46px; left: 556px; top: 835px; }
+.text3 { width: 414px; height: 46px; left: 556px; top: 1026px; }
+.text4 { width: 414px; height: 46px; left: 556px; top: 1217px; }
+.text5 { width: 581px; height: 46px; left: 545px; top: 1412px; }
+.text6 { width: 535px; height: 46px; left: 556px; top: 1607px; }
 
-body > div > div:nth-child(23) {
-    width: 414px;
-    height: 46px;
-    left: 556px;
-    top: 1026px;
-    position: absolute;
-text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(24) {
-    width: 414px;
-    height: 46px;
-    left: 556px;
-    top: 1217px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(25) {
-    width: 581px;
-    height: 46px;
-    left: 545px;
-    top: 1412px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(26) {
-    width: 535px;
-    height: 46px;
-    left: 556px;
-    top: 1607px;
-    position: absolute;
-    text-align: center;
-    color: white;
-    font-size: 39px;
-    font-family: Inter;
-    font-weight: 600;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(27) {
+.message-section {
     width: 1210px;
     height: 984px;
+    position: absolute;
     left: 115px;
     top: 1752px;
-    position: absolute;
     background: #525252;
-    border: 8px black solid;
+    border: 8px solid black;
 }
 
-body > div > div:nth-child(28) {
+.message-title {
     width: 597px;
     height: 76px;
+    position: absolute;
     left: 421px;
     top: 1783px;
-    position: absolute;
     text-align: center;
     color: white;
     font-size: 64px;
-    font-family: Inter;
     font-weight: 700;
     word-wrap: break-word;
 }
 
-body > div > div:nth-child(29) {
-    width: 1134px;
-    height: 103px;
-    left: 154px;
-    top: 2005px;
+.input-box {
     position: absolute;
     background: white;
     border-radius: 14px;
-    border: 1px black solid;
+    border: 1px solid black;
 }
 
-body > div > div:nth-child(30) {
-    width: 1139px;
-    height: 103px;
-    left: 149px;
-    top: 2189px;
+.box1 { width: 1134px; height: 103px; left: 154px; top: 2005px; }
+.box2 { width: 1139px; height: 103px; left: 149px; top: 2189px; }
+.box3 { width: 1139px; height: 289px; left: 149px; top: 2385px; }
+
+.name-label, .email-label, .message-label {
     position: absolute;
-    background: white;
-    border-radius: 14px;
-    border: 1px black solid;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    word-wrap: break-word;
 }
 
-body > div > div:nth-child(31) {
-    width: 1139px;
-    height: 289px;
-    left: 149px;
-    top: 2385px;
-    position: absolute;
-    background: white;
-    border-radius: 14px;
-    border: 1px black solid;
-}
-
-body > div > div:nth-child(32) {
+.name-label {
     width: 249px;
     height: 58px;
     left: 159px;
     top: 1947px;
-    position: absolute;
-    text-align: center;
 }
 
-body > div > div:nth-child(32) > span:nth-child(1) {
-    color: white;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(32) > span:nth-child(2) {
-    color: #FF0000;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(33) {
+.email-label {
     width: 206px;
     height: 58px;
     left: 159px;
     top: 2131px;
-    position: absolute;
-    text-align: center;
 }
 
-body > div > div:nth-child(33) > span:nth-child(1) {
-    color: white;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(33) > span:nth-child(2) {
-    color: #FF0000;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(34) {
+.message-label {
     width: 271px;
     height: 58px;
     left: 154px;
     top: 2327px;
-    position: absolute;
-    text-align: center;
 }
 
-body > div > div:nth-child(34) > span:nth-child(1) {
-    color: white;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
-}
-
-body > div > div:nth-child(34) > span:nth-child(2) {
+.name-label span, .email-label span, .message-label span {
     color: #FF0000;
-    font-size: 40px;
-    font-family: Inter;
-    font-weight: 700;
-    word-wrap: break-word;
 }
 
-body > div > div:nth-child(35) {
+.footer {
     width: 1440px;
     height: 228px;
+    position: absolute;
     left: 1px;
     top: 2872px;
-    position: absolute;
 }
 
-body > div > div:nth-child(35) > div:nth-child(1) {
+.footer-bg {
     width: 1440px;
     height: 228px;
-    left: 0px;
-    top: 0px;
     position: absolute;
+    top: 0;
     background: black;
 }
 
-body > div > div:nth-child(35) > img:nth-child(2) {
-    width: 100px;
-    height: 100px;
-    left: 455px;
-    top: 54px;
+.footer-img {
     position: absolute;
     border-radius: 9999px;
 }
 
-body > div > div:nth-child(35) > img:nth-child(3) {
-    width: 100px;
-    height: 100px;
-    left: 670px;
-    top: 54px;
-    position: absolute;
-    border-radius: 9999px;
-}
+.footer-img.img1 { width: 100px; height: 100px; left: 455px; top: 54px; }
+.footer-img.img2 { width: 100px; height: 100px; left: 670px; top: 54px; }
+.footer-img.img3 { width: 100px; height: 100px; left: 885px; top: 54px; }
 
-body > div > div:nth-child(35) > img:nth-child(4) {
-    width: 100px;
-    height: 100px;
-    left: 885px;
-    top: 54px;
-    position: absolute;
-    border-radius: 9999px;
-}
-
-body > div > div:nth-child(36) {
+.send-button {
     width: 382px;
     height: 97px;
+    position: absolute;
     left: 528px;
     top: 2755px;
-    position: absolute;
     background: white;
     border-radius: 14px;
 }
 
-body > div > div:nth-child(37) {
+.send-text {
     width: 189px;
     height: 56px;
+    position: absolute;
     left: 626px;
     top: 2767px;
-    position: absolute;
     text-align: center;
     color: black;
     font-size: 56px;
-    font-family: Inter;
     font-weight: 600;
     word-wrap: break-word;
 }
