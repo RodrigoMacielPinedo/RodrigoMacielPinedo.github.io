@@ -9,6 +9,7 @@ body {
     height: 2878px;
     position: relative;
     background: white;
+    margin: auto;
 }
 
 .header {
