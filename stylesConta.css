@@ -319,29 +319,29 @@ body {
 }
 
 .profile-text:nth-child(8) {
-    top: 1783px;
+    top: 1947px;
 }
 
 .input-box:nth-child(4) {
     left: 159px;
-    top: 1947px;
+    top: 2055px;
 }
 
 .input-box:nth-child(5) {
     left: 159px;
-    top: 2131px;
+    top: 2239px;
 }
 
 .input-box:nth-child(6) {
     left: 154px;
-    top: 2327px;
+    top: 2435px;
 }
 
 .footer {
     width: 1440px;
     height: 228px;
     position: absolute;
-    top: 2872px;
+    top: 3100px; /* Corregido */
 }
 
 .footer-background {
@@ -375,7 +375,7 @@ body {
     height: 97px;
     position: absolute;
     left: 528px;
-    top: 2755px;
+    top: 2767px; /* Corregido */
     background: white;
     border-radius: 14px;
 }
@@ -385,7 +385,7 @@ body {
     height: 56px;
     position: absolute;
     left: 626px;
-    top: 2767px;
+    top: 2789px; /* Corregido */
     text-align: center;
     color: black;
     font-size: 56px;
