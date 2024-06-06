@@ -30,6 +30,15 @@ body {
     font-size: 32px;
     font-weight: 400;
     word-wrap: break-word;
+    left: 815px;
+}
+
+.nav-item.second{
+    left: 998px;
+}
+
+.nav-item.third{
+    left: 1187px;
 }
 
 .icon {
@@ -83,6 +92,19 @@ body {
     height: 281px;
     position: absolute;
     left: 106px;
+    top: 1030px;
+}
+
+.project-image.second{
+    top: 1447px;
+}
+
+.project-image.third{
+    top: 1874px;
+}
+
+.project-image.fourth{
+    top: 2301px;
 }
 
 .project-description {
